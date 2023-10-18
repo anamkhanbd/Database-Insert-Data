@@ -27,7 +27,7 @@
               </div>
           </li>
           <li class="nav-item">
-              <a href="#tab5Id" class="nav-link">GO Data Table</a>
+              <a href="{{url('/')}}/Pages/insert" class="nav-link">Data Insert</a>
           </li>
           <li class="nav-item">
               <a href="#" class="nav-link">Data View</a>
