@@ -30,7 +30,7 @@
               <a href="{{url('/')}}/Pages/insert" class="nav-link">Data Insert</a>
           </li>
           <li class="nav-item">
-              <a href="#" class="nav-link">Data View</a>
+              <a href="{{url('/')}}/Pages/dataView" class="nav-link">Data View</a>
           </li>
       </ul>
       

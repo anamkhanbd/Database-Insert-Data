@@ -21,6 +21,18 @@ use App\Models\DataForm;
 Route::get('/', [PagesController::class, 'home']);
 Route::get('Pages/dataForm', [PagesController::class, 'dataForm']);
 Route::post('Pages/store', [FormController::class, 'store']);
+Route::get('Pages/dataView', [PagesController::class, 'dataView']);
+
+
+
+
 
 Route::get('Pages/insert', [ProductController::class, 'index']);
 Route::post('Pages/insert', [ProductController::class, 'store']);
+
+
+
+
+
+
+

@@ -13,12 +13,9 @@ class PagesController extends Controller
        return view ('Pages/dataForm');
    }
 
-
-
-
-
-
-
+public function dataView(){
+       return view ('Pages/dataView',['products'=>Product::get()]);
+   }
 
    
 }
